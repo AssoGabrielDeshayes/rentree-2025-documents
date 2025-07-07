@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documents de rentrée IES – 2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    p {
+      font-size: 1.1em;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 15px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005999;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      let password = "rentrée2025"; // 🔑 MODIFIE CE MOT DE PASSE ICI
+      let input = prompt("Veuillez entrer le mot de passe pour accéder aux documents :");
+      if (input !== password) {
+        document.body.innerHTML = "<h2 style='text-align:center;color:red;'>⛔ Accès refusé. Mot de passe incorrect.</h2>";
+      }
+    };
+  </script>
+</head>
+<body>
+  <h1>📚 Documents de rentrée 2025</h1>
+  <p>Bienvenue sur l’espace de téléchargement des documents à lire pour la rentrée. Veuillez cliquer sur les liens ci-dessous pour les télécharger :</p>
+  <ul>
+    <li>📄 <a href="exemple.pdf" target="_blank">Fiche exemple</a></li>
+  </ul>
+
+  <div class="footer">
+    Merci de lire attentivement ces documents avant la rentrée.<br>
+    Établissement IES – 2025
+  </div>
+</body>
+</html>
